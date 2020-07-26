@@ -36,6 +36,8 @@ args1 -> firestore collection 이름 // matching 되지 않으면 error 출력
 
 //args2 -> json 파일명 (.json  없이 입력)
 
+download 된 파일은 *jsonData* 폴더로 들어간다.
+
 ### upload
 
 ```
@@ -43,6 +45,8 @@ node uploadCollection arg1
 ```
 
 args1 -> json 파일명 (without .json)
+
+arg1 의 파일은 *jsonData* 폴더에 있는 파일과 파일명과 일치해야 한다.
 
 
 
